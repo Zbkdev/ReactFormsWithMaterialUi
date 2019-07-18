@@ -1,0 +1,82 @@
+body {
+  background: #dbdbdb;
+}
+
+.container {
+      padding: 50px 0; 
+    background: white;
+    text-align:center;
+    margin:100px auto;
+    max-width: 800px;
+
+}
+
+.App {
+    background: white;
+    display:flex;
+    flex-wrap:wrap;
+    margin:40px auto;
+    justify-content: center;
+}
+
+table {
+  width: 100%;
+
+}
+
+form {
+  text-align: left;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+thead {
+  background: #f4f4f4;
+}
+
+.button {
+  margin-top: 15px;
+  margin-bottom: 55px;
+}
+
+.th , .icon {
+  cursor: pointer;
+}
+
+
+
+
+@keyframes App-logo-spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.paper {
+  position: relative;
+  box-shadow: 0 2px 0.2em #777;
+}
+.paper:before, .paper:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 1em;
+  width: 50%;
+  top: 80%;
+  background: #777;
+  box-shadow: 0 1em 0.5em #777;
+}
+.paper:before {
+  transform: rotate(-2deg);
+  left: 0.5em;
+}
+.paper:after {
+  transform: rotate(2deg);
+  right: 0.5em;
+}
